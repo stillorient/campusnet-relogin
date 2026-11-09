@@ -1,0 +1,26 @@
+# Personal settings and captured authentication requests
+/Config.psd1
+/PortalLogin.ps1
+*.local.psd1
+*.local.ps1
+.env
+.env.*
+!.env.example
+*.har
+*.pcap
+*.pcapng
+
+# Runtime output
+*.log
+*.log.*
+/logs/
+/TestResults.xml
+
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.swp
+*.tmp
+*.bak
